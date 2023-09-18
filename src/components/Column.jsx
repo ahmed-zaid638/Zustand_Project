@@ -3,9 +3,10 @@ import "./Column.css";
 import { useStore } from "../store";
 import { useState } from "react";
 
+
 function Column({ state }) {
   const [text, setText] = useState("");
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const tasks = useStore((store) => {
     return store.tasks.filter((task) => task.state === state);
@@ -16,6 +17,7 @@ function Column({ state }) {
 
   return (
     <div className="column">
+    <deleteIcon className="img" />
       <div className="titleWrapper">
         <p>{state}</p>
         <button onClick={() => setOpen(true)}>add</button>

@@ -32,3 +32,7 @@
   background-color: var(--COLOR-DONE);
 }
 
+
+.img {
+  cursor: pointer;
+}

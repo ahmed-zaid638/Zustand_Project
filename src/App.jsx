@@ -1,6 +1,5 @@
 import './App.css';
 import Column from './components/Column';
-
 function App() {
   const isActive = true
   return (
