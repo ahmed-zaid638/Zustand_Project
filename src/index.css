@@ -1,0 +1,50 @@
+:root {
+  --color-gray: #333333;
+  --color-gray-dark: #222222;
+  --color-gray-light: #cccccc;
+  --color-organic: #98c1d9;
+  --color-done: #ee6e4d;
+}
+
+/* coulmn */
+body {
+  background: #0000009c;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.column {
+  width: 200px;
+  height: 300px;
+  background-color: #ee6e4d;
+  padding: 10px 2px;
+}
+
+.column {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.task {
+  background-color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.task .todo {
+
+}
+
+.task .status {
+ width: fit-content;
+ margin-left: auto;
+ background-color: #98c1d9;
+ padding: 3px 8px;
+ border-radius: 7px;
+
+}
