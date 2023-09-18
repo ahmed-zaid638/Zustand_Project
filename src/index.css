@@ -1,50 +1,18 @@
 :root {
-  --color-gray: #333333;
-  --color-gray-dark: #222222;
-  --color-gray-light: #cccccc;
-  --color-organic: #98c1d9;
-  --color-done: #ee6e4d;
+  --COLOR-GRAY: #333333;
+  --COLOR-GRAY-DARK: #222222;
+  --COLOR-GRAY-LIGHT: #cccccc;
+  --COLOR-ONGOING: #98c1d9;
+  --COLOR-DONE: #ee6c4d;
+  font-family: Helvetica;
 }
 
-/* coulmn */
 body {
-  background: #0000009c;
-}
-.app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+  margin: 0;
 }
 
-.column {
-  width: 200px;
-  height: 300px;
-  background-color: #ee6e4d;
-  padding: 10px 2px;
+* {
+  box-sizing: border-box;
 }
 
-.column {
-  margin-bottom: 10px;
-  font-weight: bold;
-}
 
-.task {
-  background-color: white;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 3px;
-}
-
-.task .todo {
-
-}
-
-.task .status {
- width: fit-content;
- margin-left: auto;
- background-color: #98c1d9;
- padding: 3px 8px;
- border-radius: 7px;
-
-}

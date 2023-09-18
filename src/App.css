@@ -1,0 +1,13 @@
+.App {
+    background: var(--COLOR-GRAY);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 12px;
+    padding: 40px;
+  }
+  body {
+    margin: 0;
+  } 
+  
