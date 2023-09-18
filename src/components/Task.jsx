@@ -10,7 +10,7 @@ function Task({ title }) {
 
  
   return (
-    <div className="task">
+    <div className="task" draggable>
       <div className="title">{task.title}</div>
       <div className="bottomWrapper">
         <div></div>

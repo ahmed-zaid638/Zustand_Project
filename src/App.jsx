@@ -8,8 +8,6 @@ function App() {
       <Column state="PLANNED" />
       <Column state="ONGOING" />
       <Column state="DONE" />
-  
-     
     </div>
   );
 }
