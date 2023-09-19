@@ -1,0 +1,88 @@
+.column {
+  background: var(--COLOR-GRAY-DARK);
+  min-height: 20rem;
+  color: #fff;
+  width: 33%;
+  max-width: 20rem;
+  margin: 0 0.5rem;
+  border-radius: 4px;
+  padding: 9px 10px;
+  border: dashed transparent 4px;
+}
+.column p {
+  font-size: 18px;
+    font-weight: bold;
+}
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleWrapper button {
+  all: unset;
+  color: black;
+  background: white;
+  padding: 6px 23px;
+  border-radius: 4px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.titleWrapper button:hover {
+  background: var(--COLOR-GRAY-LIGHT);
+}
+
+.Modal {
+  position: absolute;
+  width: 100%;
+  height: 40vh ; 
+  top: 237px;
+  left: 0;
+} 
+
+.modalContent {
+  background: white;
+  position: absolute;
+  z-index: 1;
+  padding: 1.4rem;
+  height: 10rem;
+  width: 21rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.modalContent input {
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid #a39e9e  ;
+  margin-right: 13px;
+}
+.Modal button {
+  cursor: pointer;
+  padding:  10px;
+  border:1px solid #a39e9e  ;
+  border-radius: 5px;
+}
+.column.drop {
+  border: 1px dotted #dbd0d0;
+}
+
+@media (max-width : 992px) {
+  .column {
+    width: 50%;
+  }
+
+}
+
+@media (max-width : 500px) {
+  .column {
+    width: 98%;
+  }
+
+}

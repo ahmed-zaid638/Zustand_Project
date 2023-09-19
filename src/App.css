@@ -1,13 +1,20 @@
 .App {
-    background: var(--COLOR-GRAY);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    gap: 12px;
-    padding: 40px;
+  background: var(--COLOR-GRAY);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 12px;
+  padding: 40px;
+}
+body {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .App {
+    padding: 20px;
+    flex-wrap: wrap;
   }
-  body {
-    margin: 0;
-  } 
-  
+}
